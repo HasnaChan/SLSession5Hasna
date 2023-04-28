@@ -1,0 +1,431 @@
+body{
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+  }
+
+  a {
+    color: #23cfff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ffc85a;
+    text-decoration: none;
+  }
+
+
+
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  #header {
+    /* z-index: 997; */
+    transition: all 0.5s;
+    height: 60px;
+    background: rgba(25, 28, 31, 0.8);
+  }
+
+  #header.header-transparent {
+    background: transparent;
+  }
+
+/* Navbar */
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+
+  .navbar>ul>li>a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 3;
+    background-color: #ffffff;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .navbar a:hover:before,
+  .navbar li:hover>a:before,
+  .navbar .active:before {
+    visibility: visible;
+    width: 25px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #23cfff;
+  }
+
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+
+  section {
+    justify-content: flex;
+    padding: 60px 0;
+    background-color: #FAEEE7;
+    }
+
+ /*--------------------------------------------------------------
+  # home Section
+  --------------------------------------------------------------*/
+  #home {
+    width: 100%;
+    height: 100vh;
+    background: url("../../../../img/carousel1.jpg") top right;
+    background-size: cover;
+    position: relative;
+  }
+
+  #home:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #home .home-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  #home h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-family: "Satisfy", serif;
+    color: #fff;
+  }
+
+  #home h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  #home .btn-scroll {
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  #home .btn-scroll i {
+    font-size: 48px;
+  }
+
+  #home .btn-scroll:hover {
+    color: #23cfff;
+  }
+
+
+  /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  .about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #3b434a;
+    text-transform: uppercase;
+  }
+
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #23cfff;
+    line-height: 0;
+  }
+
+  .about .image {
+    background: url("../../../../img/me.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+
+  .about .skills-content {
+    margin-top: 30px;
+  }
+
+  .about .skills-content .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+
+  .about .skills-content .progress .skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #3b434a;
+  }
+
+  .about .skills-content .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+
+  .about .skills-content .progress-bar-wrap {
+    background: #e6e8eb;
+  }
+
+  .about .skills-content .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #23cfff;
+  }
+
+  /*--------------------------------------------------------------
+# My softskill
+--------------------------------------------------------------*/
+.softskill .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.softskill .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  background: #23cfff;
+}
+
+.softskill .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.softskill .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+  /*--------------------------------------------------------------
+  # My Resume
+  --------------------------------------------------------------*/
+  .resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3b434a;
+  }
+
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #82909c;
+    position: relative;
+  }
+
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #23cfff;
+    margin-bottom: 10px;
+  }
+
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #eef0f2;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #82909c;
+  }
+
+  /*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.blog .blog-list {
+  padding: 0 100px;
+}
+
+.blog .blog-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+
+
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+  #footer {
+    background: url("../../../../img/footer-bg.jpg") top center no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+  }
+
+  #footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  #footer .container {
+    position: relative;
+  }
+
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Satisfy", serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+
+
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #23cfff;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+
+  #footer .social-links a:hover {
+    background: #aabfee;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+
+  #footer .credits {
+    font-size: 13px;
+  }
