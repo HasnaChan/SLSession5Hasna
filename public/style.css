@@ -3,250 +3,248 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Poppins", sans-serif;
-  }
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: #23cfff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffc85a;
+  text-decoration: none;
+}
 
-  a {
-    color: #23cfff;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #ffc85a;
-    text-decoration: none;
-  }
-
-
-
-  /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
-  #header {
-    /* z-index: 997; */
-    transition: all 0.5s;
-    height: 60px;
-    background: rgba(25, 28, 31, 0.8);
-  }
-
-  #header.header-transparent {
-    background: transparent;
-  }
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  /* z-index: 997; */
+  transition: all 0.5s;
+  height: 60px;
+  background: rgba(25, 28, 31, 0.8);
+}
+#header.header-transparent {
+  background: transparent;
+}
 
 /* Navbar */
-
-  .navbar {
-    padding: 0;
-  }
-
-  .navbar ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-  }
-
-  .navbar li {
-    position: relative;
-  }
-
-  .navbar a,
-  .navbar a:focus {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 15px;
-    color: #fff;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 12px;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-  }
-
-  .navbar a i,
-  .navbar a:focus i {
-    font-size: 12px;
-    line-height: 0;
-    margin-left: 5px;
-  }
-
-  .navbar>ul>li>a:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    left: 3;
-    background-color: #ffffff;
-    visibility: hidden;
-    width: 0px;
-    transition: all 0.3s ease-in-out 0s;
-  }
-
-  .navbar a:hover:before,
-  .navbar li:hover>a:before,
-  .navbar .active:before {
-    visibility: visible;
-    width: 25px;
-  }
-
-  .navbar a:hover,
-  .navbar .active,
-  .navbar .active:focus,
-  .navbar li:hover>a {
-    color: #23cfff;
-  }
-
-  /*--------------------------------------------------------------
-  # Sections General
-  --------------------------------------------------------------*/
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+}
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  color: #ffff;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar>ul>li>a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 3;
+  background-color: #ffffff;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navbar a:hover:before,
+.navbar li:hover>a:before,
+.navbar .active:before {
+  visibility: visible;
+  width: 25px;
+}
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #23cfff;
+}
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
 
   section {
     justify-content: flex;
     padding: 60px 0;
-    background-color: #FAEEE7;
     }
 
- /*--------------------------------------------------------------
-  # home Section
-  --------------------------------------------------------------*/
-  #home {
-    width: 100%;
-    height: 100vh;
-    background: url("../../../../img/carousel1.jpg") top right;
-    background-size: cover;
+  .section-bg {
+    background-color: white;
+  }
+
+  .section-title {
+    text-align: center;
+    padding: 30px 0;
     position: relative;
   }
 
-  #home:before {
-    content: "";
-    background: rgba(0, 0, 0, 0.65);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  #home .home-container {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 15px;
-  }
-
-  #home h1 {
-    margin: 0 0 10px 0;
-    font-size: 64px;
-    font-family: "Satisfy", serif;
-    color: #fff;
-  }
-
-  #home h2 {
-    color: #eee;
-    margin-bottom: 50px;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-
-  #home .btn-scroll {
-    transition: 0.4s;
-    color: rgba(255, 255, 255, 0.6);
-  }
-
-  #home .btn-scroll i {
-    font-size: 48px;
-  }
-
-  #home .btn-scroll:hover {
-    color: #23cfff;
-  }
-
-
-  /*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
-  .about .content h3 {
+  .section-title h2 {
+    font-size: 32px;
     font-weight: 700;
-    font-size: 26px;
-    color: #3b434a;
     text-transform: uppercase;
-  }
-
-  .about .content ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .about .content ul li {
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
   }
 
-
-  .about .content ul i {
-    font-size: 16px;
-    margin-right: 5px;
-    color: #23cfff;
+  .section-title span {
+    position: absolute;
+    top: 30px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
     line-height: 0;
   }
 
-  .about .image {
-    background: url("../../../../img/me.jpg") center center no-repeat;
-    background-size: cover;
-    min-height: 500px;
+  .section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
   }
 
-  .about .skills-content {
-    margin-top: 30px;
-  }
+ /*--------------------------------------------------------------
+# home Section
+--------------------------------------------------------------*/
+#home {
+  width: 100%;
+  height: 100vh;
+  background: url("../../../../img/carousel1.jpg") top right;
+  background-size: cover;
+  position: relative;
+}
+#home:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#home .home-container {
 
-  .about .skills-content .progress {
-    height: 60px;
-    display: block;
-    background: none;
-    border-radius: 0;
-  }
-
-  .about .skills-content .progress .skill {
-    padding: 10px 0;
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 700;
-    font-family: "Raleway", sans-serif;
-    color: #3b434a;
-  }
-
-  .about .skills-content .progress .skill .val {
-    float: right;
-    font-style: normal;
-  }
-
-  .about .skills-content .progress-bar-wrap {
-    background: #e6e8eb;
-  }
-
-  .about .skills-content .progress-bar {
-    width: 1px;
-    height: 10px;
-    transition: 0.9s;
-    background-color: #23cfff;
-  }
-
-  /*--------------------------------------------------------------
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+#home h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-family: "Satisfy", serif;
+  color: #fff;
+}
+#home h2 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-family: "Satisfy", serif;
+    color: #fff;
+}
+#home .btn-scroll {
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.6);
+}
+#home .btn-scroll i {
+  font-size: 48px;
+}
+#home .btn-scroll:hover {
+  color: #23cfff;
+}
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #3b434a;
+  text-transform: uppercase;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #23cfff;
+  line-height: 0;
+}
+.about .image {
+  background: url("../../../../img/me.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+.about .skills-content {
+  margin-top: 30px;
+}
+.about .skills-content .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.about .skills-content .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #3b434a;
+}
+.about .skills-content .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.about .skills-content .progress-bar-wrap {
+  background: #e6e8eb;
+}
+.about .skills-content .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #23cfff;
+}
+/*--------------------------------------------------------------
 # My softskill
 --------------------------------------------------------------*/
 .softskill .icon-box {

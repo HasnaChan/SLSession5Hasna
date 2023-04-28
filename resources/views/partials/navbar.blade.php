@@ -6,8 +6,8 @@
                 <li> <a class="nav-link {{ ($title == "about")? 'active' : '' }}" href="/about">About</a> </li>
                 <li> <a class="nav-link {{ ($title == "resume")? 'active' : '' }}" href="/resume">Resume</a></li>
                 <li> <a class="nav-link {{ ($title == "project")? 'active' : '' }}" href="/project">Project</a> </li>
-                <li> <a class="nav-link {{ ($title == "blog")? 'active' : '' }}" href="/blog">Blog</a> </li>
-                <li> <a class="nav-link {{ ($title == "achievemnt")? 'active' : '' }}" href="/achievemnt">Achievemnt</a> </li>
+                {{-- <li> <a class="nav-link {{ ($title == "blog")? 'active' : '' }}" href="/blog">Blog</a> </li> --}}
+                <li> <a class="nav-link {{ ($title == "achievement")? 'active' : '' }}" href="/achievement">Achievement</a> </li>
             </ul>
 
   </nav><!-- .navbar -->
