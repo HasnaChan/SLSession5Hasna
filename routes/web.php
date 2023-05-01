@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AchievementController;
+use App\Http\Controllers\CardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,3 +37,8 @@ Route::get('/project', function () {
 Route::get('/achievement', function () {
     return view('achievement',["title" => "achievement"]);
 });
+
+Route::get('/achievement', [AchievementController::class, 'index']);
+
+Route::get('/achievement/{id}', [AchievementController::class, 'detail']);
+

@@ -355,6 +355,46 @@ a:hover {
   position: relative;
 }
 
+/*  ACHIEVEMENT */
+
+.singlecard{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.R{
+    background-color: silver;
+    width: 225px;
+}
+
+.C{
+    background-color: goldenrod;
+    width: 225px;
+}
+
+.S{
+    background-color: burlywood;
+    width: 225px;
+}
+
+.R{
+    background-color: silver;
+    width: 225px;
+}
+
+.SR{
+    background-color: goldenrod;
+    width: 225px;
+}
+
+.SSR{
+    background-color: red;
+    color : white;
+    width: 225px;
+}
+
 
 
   /*--------------------------------------------------------------
