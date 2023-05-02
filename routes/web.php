@@ -37,6 +37,9 @@ Route::get('/project', function () {
 Route::get('/achievement', function () {
     return view('achievement',["title" => "achievement"]);
 });
+Route::get('/detail', function () {
+    return view('detail',["title" => "detail"]);
+});
 
 Route::get('/achievement', [AchievementController::class, 'index']);
 

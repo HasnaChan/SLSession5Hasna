@@ -379,91 +379,92 @@ a:hover {
     width: 225px;
 }
 
-.R{
-    background-color: silver;
-    width: 225px;
-}
-
-.SR{
-    background-color: goldenrod;
-    width: 225px;
-}
-
-.SSR{
-    background-color: red;
-    color : white;
-    width: 225px;
-}
-
-
-
-  /*--------------------------------------------------------------
-  # Footer
-  --------------------------------------------------------------*/
-  #footer {
-    background: url("../../../../img/footer-bg.jpg") top center no-repeat;
-    background-size: cover;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    padding: 50px 0;
-    position: relative;
-  }
-
-  #footer::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-  }
-
-  #footer .container {
-    position: relative;
-  }
-
-  #footer h3 {
-    font-size: 36px;
+/*--------------------------------------------------------------
+# Detail Achievement
+--------------------------------------------------------------*/
+.achievementDetail .content h3 {
     font-weight: 700;
-    color: #fff;
-    position: relative;
-    font-family: "Satisfy", serif;
-    padding: 0;
-    margin: 0 0 15px 0;
-  }
-
-
-  #footer .social-links {
-    margin: 0 0 40px 0;
-  }
-
-  #footer .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #23cfff;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-  }
-
-  #footer .social-links a:hover {
-    background: #aabfee;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  #footer .copyright {
-    margin: 0 0 5px 0;
-  }
-
-  #footer .credits {
-    font-size: 13px;
-  }
+    font-size: 26px;
+    color: #3b434a;
+    text-transform: uppercase;
+}
+.achievementDetail .content ul {
+  list-style: none;
+  padding: 0;
+}
+.achievementDetail .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.achievementDetail .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #23cfff;
+  line-height: 0;
+}
+.achievementDetail .image {
+  background-size: cover;
+  min-height: 400px;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: url("../../../../img/footer-bg.jpg") top center no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 50px 0;
+  position: relative;
+}
+#footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+#footer .container {
+  position: relative;
+}
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Satisfy", serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #23cfff;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #aabfee;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+#footer .credits {
+  font-size: 13px;
+}

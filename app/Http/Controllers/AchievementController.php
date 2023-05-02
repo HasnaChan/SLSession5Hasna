@@ -115,7 +115,7 @@ class AchievementController extends Controller
                 $achievement = $a;
             }
         }
-        return view('detail', ["achievement" => $achievement, "title" => $achievement]);
+        return view('detailAchievement', ["achievement" => $achievement, "title" => $achievement]);
 
     }
 }
