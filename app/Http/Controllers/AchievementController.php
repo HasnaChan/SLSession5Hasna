@@ -19,7 +19,7 @@ class AchievementController extends Controller
             ['id'=>9, 'name' => 'Kejuaraan Taekwondo Pomsae', 'rankid' => 'R', 'rank' => 'Runner Up', 'level' => 'City', 'image' => '9.jpg' ]
         ];
 
-        return view('achievement', ["achievements" => $achievements, "title" => $achievements]);
+        return view('achievement', ["achievements" => $achievements, "title" => 'achievement']);
     }
 
 
@@ -115,7 +115,7 @@ class AchievementController extends Controller
                 $achievement = $a;
             }
         }
-        return view('detailAchievement', ["achievement" => $achievement, "title" => $achievement]);
+        return view('detailAchievement', ["achievement" => $achievement, "title" => 'achievement']);
 
     }
 }
