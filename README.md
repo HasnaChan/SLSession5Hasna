@@ -7,7 +7,7 @@ My name is Hasna Salsabilla Abdullah from PPTI 12 (NIM: 2502041211). I made this
 ## Documentation of the website:
 
 
-Or you can watch here : 
+You can watch the GIF Demo here : 
 
 
 
