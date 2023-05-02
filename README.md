@@ -1,7 +1,7 @@
 <p align="center"><a href="https://github.com/HasnaChan/SLMeet3WebProgHasna" target="_blank">Hi, I am Hasna.</a></p>
 
 ## About this Project
-My name is Hasna Salsabilla Abdullah from PPTI 12 (NIM: 2502041211). I made this website to accomplished the task that my lecturer (Mr. Anderies) delivered to us as Self Learning Week 3. This website made with PHP Framework Laravel. The design inspired by Bootstrap and AOS. I also made some transition effect in this website so the readers won't get bored. Here is the interface of this website:
+My name is Hasna Salsabilla Abdullah from PPTI 12 (NIM: 2502041211). I made this website to accomplished the task that my lecturer (Mr. Anderies) delivered to us as Self Learning  Session 5. This website made with PHP Framework Laravel. The design inspired by Bootstrap and AOS. I also made some transition effect in this website so the readers won't get bored. Here is the interface of this website:
 
 
 ## Documentation of the website:
@@ -22,9 +22,9 @@ This is a welcoming page of all readers who visit thsi website.
 This pages contains some informations about me strating from my name, my hobbies, my achievements, and my skills.
 ![2. About Me Page]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about1.jpg)
-![2.1 About Me]
+![2.1 About Me 2]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about2.jpg)
-![2.3 About Me]
+![2.2 About Me 3]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about3.jpg)
 
 
@@ -32,22 +32,24 @@ This pages contains some informations about me strating from my name, my hobbies
 In this page you can see my educational background and my Profesional Experiences.
 ![3. Resume Page]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/resume1.jpg)
-![3.1 Resume Page 2](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/resume2.jpg)
+![3.1 Resume Page 2]
+(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/resume2.jpg)
 
 
 **4. Project Page:**
 This page shows you some project created by me and my team mates and also some of articles I made.
 ![4. Project Page]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project1.jpg)
-![4.1 Project Page]
+![4.1 Project Page 2]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project2.jpg)
-![4.2 Project Page]
+![4.2 Project Page 3]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project3.jpg)
 
 **5. Achievement Page:**
 This is my achievements page. I made this page into 3 category color. Gold: winning status champion. Silver: winning status runner up. Bronze: winning status second runner up.
-![5. Achievement Page](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/achievement1.jpg)
-![5.1 Achievement Page]
+![5. Achievement Page]
+(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/achievement1.jpg)
+![5.1 Achievement Page 2]
 (https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/achievement2.jpg)
 
 **6. Achievement Detail Page:**
