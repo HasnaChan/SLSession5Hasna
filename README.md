@@ -12,54 +12,47 @@ Or you can watch here :
 
 
 
+https://user-images.githubusercontent.com/103588041/235684318-e3dad455-e81d-4750-b2e0-deb9672396a4.mp4
+
+
+
 
 **1. Home Page:**
-This is a welcoming page of all readers who visit thsi website.
+This is a welcoming page of all readers who visit this website.
 ![1. Home Page](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/home.jpg)
 
 
 **2. About Me Page:**
 This pages contains some informations about me strating from my name, my hobbies, my achievements, and my skills.
-![2. About Me Page]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about1.jpg)
-![2.1 About Me 2]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about2.jpg)
-![2.2 About Me 3]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about3.jpg)
+![2. About Me Page](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about1.jpg)
+![3. About Me 2](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about2.jpg)
+![4. About Me 3](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/about3.jpg)
 
 
 **3. Resume Page:**
 In this page you can see my educational background and my Profesional Experiences.
-![3. Resume Page]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/resume1.jpg)
-![3.1 Resume Page 2]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/resume2.jpg)
+![5. Resume Page](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/resume1.jpg)
+![6. Resume Page 2](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/resume2.jpg)
 
 
 **4. Project Page:**
 This page shows you some project created by me and my team mates and also some of articles I made.
-![4. Project Page]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project1.jpg)
-![4.1 Project Page 2]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project2.jpg)
-![4.2 Project Page 3]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project3.jpg)
+![7. Project Page](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project1.jpg)
+![8. Project Page 2](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project2.jpg)
+![9. Project Page 3](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/project3.jpg)
 
 **5. Achievement Page:**
 This is my achievements page. I made this page into 3 category color. Gold: winning status champion. Silver: winning status runner up. Bronze: winning status second runner up.
-![5. Achievement Page]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/achievement1.jpg)
-![5.1 Achievement Page 2]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/achievement2.jpg)
+![10. Achievement Page](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/achievement1.jpg)
+![11. Achievement Page 2](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/achievement2.jpg)
 
 **6. Achievement Detail Page:**
 This is the detail page of each achiement
-![6. Achievement Detail Page]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/detail.jpg)
+![12. Achievement Detail Page](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/detail.jpg)
 
 **7. Footer:**
-![7. Footer]
-(https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/footer.jpg)
+You can contact me via Instagram, WhatsApp, or LinkedIn
+![13. Footer](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/footer.jpg)
 
 ## If you want to run the website, do this step in cli:
 
