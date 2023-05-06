@@ -9,7 +9,7 @@ My name is Hasna Salsabilla Abdullah from PPTI 12 (NIM: 2502041211). I made this
 
 You can watch the GIF Demo here : 
 
-
+![gif](https://github.com/HasnaChan/SLSession5Hasna/blob/master/dokumentasi/gif.gif)
 
 
 https://user-images.githubusercontent.com/103588041/235684318-e3dad455-e81d-4750-b2e0-deb9672396a4.mp4
